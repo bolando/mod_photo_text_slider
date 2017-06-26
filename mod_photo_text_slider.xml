@@ -49,49 +49,49 @@
 				<field name="pts_title1" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link1" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge1" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc1" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc1" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 		
 				<field name="@spacer1" type="spacer" default="" label="" description="" />
 				<field name="pts_title2" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link2" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge2" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc2" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc2" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 
 				<field name="@spacer2" type="spacer" default="" label="" description="" />
 				<field name="pts_title3" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link3" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge3" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc3" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc3" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 
 				<field name="@spacer3" type="spacer" default="" label="" description="" />
 				<field name="pts_title4" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link4" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge4" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc4" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc4" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 
 				<field name="@spacer4" type="spacer" default="" label="" description="" />
 				<field name="pts_title5" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link5" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge5" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc5" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc5" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 
 				<field name="@spacer5" type="spacer" default="" label="" description="" />
 				<field name="pts_title6" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link6" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge6" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc6" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc6" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 
 				<field name="@spacer6" type="spacer" default="" label="" description="" />
 				<field name="pts_title7" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link7" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge7" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc7" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc7" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 
 				<field name="@spacer7" type="spacer" default="" label="" description="" />
 				<field name="pts_title8" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link8" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
 				<field name="pts_imge8" type="media" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
-				<field name="pts_desc8" type="editor" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+				<field name="pts_desc8" type="editor" filter="safehtml" width="500" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
 			</fieldset>
 		</fields>
 	</config>
