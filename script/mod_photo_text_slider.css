@@ -1,10 +1,13 @@
 #wp_50_photo {
 	border: 0px solid #bdc7d8;
 	padding: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;    
+	height: auto !important;
+    min-height: 200px;
 }
 #wp_50_photo .post {
 	padding: 10px;
+    width: 100% !important;
 }
 #wp_50_photo h2 {
 	/*font-size: 1.6em;*/
