@@ -44,7 +44,7 @@ if ( ! empty($items) )
 			<?php if($wp_50_path <> "") { ?><img style="border: 0px; margin: 0px;" src="<?php echo $wp_50_path; ?>" alt="" /><?php } ?>
 			<?php if($wp_50_link <> "") { ?></a><?php } ?>
 			</div>
-			<?php if($wp_50_desc <> "") { ?><p><?php echo $wp_50_desc; ?></p><?php } ?>
+			<?php if($wp_50_desc <> "") { ?><div class="text_description"><p><?php echo $wp_50_desc; ?></p></div><?php } ?>
 		</div>
 		<?php
 	}
