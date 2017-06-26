@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+	<name>Photo text slider</name>
+	<author>Gopi Ramasamy</author>
+	<creationDate>August 2016</creationDate>
+	<copyright>(C) 2010 - 2016 www.gopiplus.com, LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>gopiplus@gmail.com</authorEmail>
+	<authorUrl>http://www.gopiplus.com/extensions/2012/03/photo-text-slider-joomla-module/</authorUrl>
+	<version>3.6</version>
+	<description>PTS_DESCRIPTION</description>
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_photo_text_slider.ini</language>
+		<language tag="en-US">language/en-US.mod_photo_text_slider.ini</language>
+	</languages>
+	<files>
+		<filename module="mod_photo_text_slider">mod_photo_text_slider.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_photo_text_slider.xml</filename>
+		<folder>tmpl</folder>
+		<folder>script</folder>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="JquerySettings" label="PTS_JQUERY_SETTINGS">
+				<field name="pts_jquery" type="list" default="no" label="PTS_INCLUDE_JQUERY" description="PTS_INCLUDE_JQUERY_DESC">
+						<option value="yes">PTS_YES</option>
+						<option value="no">PTS_NO</option>
+				</field>
+			</fieldset>
+			<fieldset name="ScrollSettings" label="PTS_SCROLL_SETTINGS">
+				<field name="pts_direction" type="list" default="scrollLeft" label="PTS_DIRECTION" description="PTS_DIRECTION_DESC">
+					<option value="scrollLeft">PTS_DIRECTION_1</option>
+					<option value="scrollRight">PTS_DIRECTION_2</option>
+					<option value="scrollUp">PTS_DIRECTION_3</option>
+					<option value="scrollDown">PTS_DIRECTION_4</option>
+				</field>
+				<field name="pts_speed" type="text" default="700" label="PTS_SPEED" description="PTS_SPEED_DESC" />
+				<field name="pts_timeout" type="text" default="5000" label="PTS_TIMEOUT" description="PTS_TIMEOUT_DESC" />
+				<field name="pts_name" type="list" default="wp_50_photo" label="PTS_NAME" description="PTS_NAME_DESC">
+					<option value="wp_50_photo">wp_50_photo</option>
+					<option value="wp_50_photo1">wp_50_photo1</option>
+					<option value="wp_50_photo2">wp_50_photo2</option>
+				</field>
+			</fieldset>
+			<fieldset name="SliderText" label="Slider Text">
+				<field name="pts_title1" type="text" size="60" default="Lorem Ipsum is simply dummy text." label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link1" type="text" size="60" default="http://www.gopiplus.com/" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge1" type="text" size="60" default="http://www.gopiplus.com/extensions/wp-content/themes/gopiplus/images/images.jpg" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc1" type="textarea" cols="42" rows="6" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." label="PTS_DESC" description="PTS_DESC_DESC" />
+		
+				<field name="@spacer1" type="spacer" default="" label="" description="" />
+				<field name="pts_title2" type="text" size="60" default="Lorem Ipsum is simply dummy text." label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link2" type="text" size="60" default="http://www.gopiplus.com" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge2" type="text" size="60" default="http://www.gopiplus.com/extensions/wp-content/themes/gopiplus/images/images.jpg" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc2" type="textarea" cols="42" rows="6" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." label="PTS_DESC" description="PTS_DESC_DESC" />
+
+				<field name="@spacer2" type="spacer" default="" label="" description="" />
+				<field name="pts_title3" type="text" size="60" default="Lorem Ipsum is simply dummy text." label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link3" type="text" size="60" default="http://www.gopiplus.com" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge3" type="text" size="60" default="http://www.gopiplus.com/extensions/wp-content/themes/gopiplus/images/images.jpg" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc3" type="textarea" cols="42" rows="6" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s." label="PTS_DESC" description="PTS_DESC_DESC" />
+
+				<field name="@spacer3" type="spacer" default="" label="" description="" />
+				<field name="pts_title4" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link4" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge4" type="text" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc4" type="textarea" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+
+				<field name="@spacer4" type="spacer" default="" label="" description="" />
+				<field name="pts_title5" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link5" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge5" type="text" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc5" type="textarea" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+
+				<field name="@spacer5" type="spacer" default="" label="" description="" />
+				<field name="pts_title6" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link6" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge6" type="text" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc6" type="textarea" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+
+				<field name="@spacer6" type="spacer" default="" label="" description="" />
+				<field name="pts_title7" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link7" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge7" type="text" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc7" type="textarea" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+
+				<field name="@spacer7" type="spacer" default="" label="" description="" />
+				<field name="pts_title8" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
+				<field name="pts_link8" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />
+				<field name="pts_imge8" type="text" size="60" default="" label="PTS_IMGE" description="PTS_IMGE_DESC" />
+				<field name="pts_desc8" type="textarea" cols="42" rows="6" default="" label="PTS_DESC" description="PTS_DESC_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
