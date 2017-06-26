@@ -45,6 +45,12 @@
 					<option value="wp_50_photo2">wp_50_photo2</option>
 				</field>
 			</fieldset>
+			<fieldset name="imageSettings" label="PTS_IMAGE_SETTINGS">
+				<field name="image_position" type="radio" default="left" label="Pozycja obrazka" description="" class="btn-group">
+					<option value="left">lewo</option>
+					<option value="right">prawo</option>
+				</field>
+			</fieldset>
 			<fieldset name="SliderText" label="Slider Text">
 				<field name="pts_title1" type="text" size="60" default="" label="PTS_TITLE" description="PTS_TITLE_DESC" />
 				<field name="pts_link1" type="text" size="60" default="" label="PTS_LINK" description="PTS_LINK_DESC" />

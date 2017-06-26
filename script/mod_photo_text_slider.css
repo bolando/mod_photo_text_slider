@@ -9,6 +9,8 @@
 #wp_50_photo h2 {
 	/*font-size: 1.6em;*/
 	margin-bottom: 5px;
+	height: auto !important;
+    width: 100% !important;
 }
 #wp_50_photo h2 a {
 	text-decoration: none;
@@ -29,7 +31,6 @@
 #wp_50_photo .thumb {
 	border: 0px solid #CCC;
 	padding: 0px;
-	float: left;
 	margin: 0 10px 10px 0;
 	background:#FFFFFF;
 }

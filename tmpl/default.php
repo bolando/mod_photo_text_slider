@@ -39,7 +39,7 @@ if ( ! empty($items) )
 		?>
 		<div class="post">
 			<?php if($wp_50_title <> "") { ?><h2><?php echo $wp_50_title; ?></h2><?php } ?>
-			<div class="thumb">
+			<div class="thumb" style="float:<?php echo $params->get('image_position'); ?>">
 			<?php if($wp_50_link <> "") { ?><a target="<?php echo $wp_50_target; ?>" href="<?php echo $wp_50_link; ?>"><?php } ?>
 			<?php if($wp_50_path <> "") { ?><img style="border: 0px; margin: 0px;" src="<?php echo $wp_50_path; ?>" alt="" /><?php } ?>
 			<?php if($wp_50_link <> "") { ?></a><?php } ?>
