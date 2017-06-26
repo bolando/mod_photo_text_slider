@@ -41,7 +41,7 @@ class modPTS
 			$pts_imge = "pts_imge" . $i;
 			$pts_desc = "pts_desc" . $i;
 			
-			if($args[$pts_title] <> "")
+			if($args[$pts_title] <> "" || $args[$pts_desc] <> "")
 			{
 				$items[$j] = new stdClass;
 				$items[$j]->pts_title	= $args[$pts_title];
